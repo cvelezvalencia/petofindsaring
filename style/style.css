@@ -1,0 +1,524 @@
+
+
+
+.frame{
+	height: 350px;
+	width: 300px;
+	border-style: solid;
+	border-width: 4px;
+	border-color: black;
+	position: relative;
+	background-color: blue;	
+
+}
+
+h1 {
+	left:10px;
+	font-family:'Roboto Slab', serif;
+	font-size: 18px;
+	position: relative;
+}
+
+.stars {
+	color: yellow;
+	display: inline-block;
+	text-align: center;
+	font-family: 'Rammetto One', cursive;
+	font-size: 30px;
+	text-decoration-style: oblique;
+	letter-spacing: 40px;
+	position: relative;
+	display: inline-block;
+	top:-17px; 
+	z-index: 1;
+	right: 20px;
+	text-transform: uppercase;
+	-webkit-transition: all 0.8s ease;
+	-moz-transition: all 0.8s ease;
+	-o-transition: all 0.8s ease;
+
+}
+
+.stars:hover {
+	color: white;
+	color: white;
+	 -ms-transform: rotate(15deg); /* IE 9 */
+    -webkit-transform: rotate(15deg); /* Chrome, Safari, Opera */
+    transform: rotate(15deg);}
+
+
+
+.grass{
+	height:86px;
+	width: 300px;
+	background-color: green;
+	position: relative;
+	display: inline-block;
+}
+
+h2 {
+	left:10px;
+	font-family:'Roboto Slab', serif;
+	font-size: 16px;
+	display: inline-block;
+	position: relative;
+	margin-bottom: 50px;
+}
+
+.peto {
+	position: absolute;
+	left: 170px;
+	bottom: 60px;
+	height: 51px;
+	width: 30px;
+	display: inline-block;
+	background-image: url("peto.png");
+	z-index: 2-;
+	background-repeat: no-repeat;
+}
+
+.peto:hover {
+	background-image: url("petoup.png");
+	z-index: 2-;
+	background-repeat: no-repeat;
+}
+
+.starsmore {
+	color: yellow;
+	display: inline-block;
+	text-align: center;
+	font-family: 'Rammetto One', cursive;
+	font-size: 30px;
+	text-decoration-style: oblique;
+	letter-spacing: 40px;
+	position: relative;
+	display: inline-block; 
+	z-index: 1;
+	left: 150px;
+	bottom:370px;
+	text-transform: uppercase;
+	-webkit-transition: all 0.8s ease;
+	-moz-transition: all 0.8s ease;
+	-o-transition: all 0.8s ease;
+}
+
+.starsmore:hover {
+	color: white;
+	 -ms-transform: rotate(15deg); /* IE 9 */
+    -webkit-transform: rotate(15deg); /* Chrome, Safari, Opera */
+    transform: rotate(15deg);
+}
+
+
+.peto#smaller {
+	left: 170px;
+	bottom: 60px;
+	height: 51px;
+	width: 30px;
+	display: inline-block;
+	background-image: url("peto.png");
+	z-index: 2-;
+	background-repeat: no-repeat;
+    -ms-transform: scale(0.5, 0.5); /* IE 9 */
+    -webkit-transform: scale(0.5, 0.5); /* Safari */
+    transform: scale(0.5, 0.5);
+}
+
+
+
+
+.stars3 {
+	color: yellow;
+	text-align: center;
+	left: 70px;
+	font-family: 'Rammetto One', cursive;
+	font-size: 30px;
+	text-decoration-style: oblique;
+	letter-spacing: 40px;
+	position: relative;
+	z-index: 1;
+	text-transform: uppercase;
+
+
+}
+
+.stars3:hover {
+	color: white;
+
+	
+
+
+}
+
+
+.starsmore3 {
+	color: yellow;
+	text-align: center;
+	font-family: 'Rammetto One', cursive;
+	font-size: 30px;
+	text-decoration-style: oblique;
+	letter-spacing: 40px;
+	position: relative;
+	z-index: 1;
+	display: inline-block;
+	bottom: 240px;
+	left: 20px;
+
+}
+
+.starsmore3:hover {
+	color: white;
+	color: white;
+	 -ms-transform: rotate(450deg); /* IE 9 */
+    -webkit-transform: rotate(450deg); /* Chrome, Safari, Opera */
+    transform: rotate(4deg);
+	 
+}
+
+.letterh {
+	position: relative;
+	height: 89px;
+	width: 57px;
+	bottom:180px;
+	right: 30px;
+	display: inline-block;
+	background-color: blue;
+	background-image: url('letterb.png');
+	z-index: 2;
+	background-repeat: no-repeat;
+}
+
+.letterh:hover {
+	background-image: url('letterh.png');
+	z-index: 2;
+	background-repeat: no-repeat;
+}
+.box{
+	height: 350px;
+	width: 300px;
+	border-style: solid;
+	border-width: 4px;
+	border-color: black;
+	position: relative;
+    background-size: 100%;
+    background-color: blue;
+}
+
+
+.box2:hover {
+	height: 350px;
+	width: 300px;
+	border-style: solid;
+	border-width: 4px;
+	border-color: black;
+	position: relative;
+}
+
+div.stars4 {
+	top: 10px;
+	left: 20px;
+	padding left: 10px;
+	display: inline-block;
+	position: relative;
+	 -ms-transform: rotate(150deg); /* IE 9 */
+    -webkit-transform: rotate(150deg); /* Chrome, Safari, Opera */
+    transform: rotate(150deg);
+
+}
+
+.stars4 {
+	color: yellow;
+	text-align: right;
+	font-family: 'Rammetto One', cursive;
+	font-size: 17px;
+	text-decoration-style: oblique;
+	letter-spacing: 30px;
+	word-spacing: 20px;
+	display: inline-block;
+	z-index: 1;
+
+
+}
+
+.stars4:hover {
+	color: yellow;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+
+}
+
+
+
+.mas:{
+	text-align: center;
+	display: block;
+	right: 30px;
+	position: relative;
+
+
+}
+
+#h {
+	color: yellow;
+}
+
+
+#h:hover {color: black;}
+
+
+
+.grass#horse {
+	position: relative;
+	top: 264px;
+	z-index: 1;
+}
+
+.bronzehorse {
+	position: relative;
+	width: 200px;
+	height: 210px;
+	left: 130px;
+	top: 48px;
+	background-image: url("bronzehorseup.png");
+	background-repeat: no-repeat;
+	z-index: 1;
+	transform: scale(.6);
+}
+
+.bronzehorse:hover {
+	width: 220px;
+	height: 210px;
+	left: 120px;
+	top: 54px;
+	position: relative;
+	background-image: url("bronzehorse.png");
+	background-repeat: no-repeat;
+	z-index: 1;
+	transform: scale(.58);
+}
+
+p.starss6{
+	position: relative;
+	font-color: yellow;
+	text-align: right;
+	font-family: 'Rammetto One', cursive;
+	font-size: 20px;
+	text-decoration-style: oblique;
+	letter-spacing: 15px;
+	word-spacing: 20px;
+	display: inline-block;
+	z-index: 2;
+	bottom: 40px;
+
+
+}
+
+
+	
+
+
+
+.bronzehorse2 {
+	
+	background-image: url("bhorse2.png");
+	width: 260px;
+	height: 278px;
+	background-repeat: no-repeat;
+	position: relative;
+	display: inline-block;
+	z-index: 1;
+	left: 40px;
+	top: 13px;
+}
+	
+
+.bronzehorse2:hover {
+	
+	background-image: url("bhorseopen.png");
+	width: 260px;
+	height: 278px;
+	background-repeat: no-repeat;
+	position: relative;
+	display: inline-block;
+	z-index: 1;
+
+}
+
+.rainbow {
+	height: 100px;
+	width: 150px;
+	position: relative;
+	display: block;
+	letter-spacing: 30px;
+	top: -280px;
+	z-index: 1;
+	left: 15px;
+	color: yellow;
+	text-align: center;
+	font-family: 'Rammetto One', cursive;
+	bottom: 40px;
+}
+
+.rainbow:hover { 
+	transform: scale(1.2);
+}
+
+#two.rainbow {
+
+	height: 30px;
+	width: 100px;
+	top: -370px;
+	left: 120px;
+	position: relative;
+	display: inline;
+	font-size: 10px;
+	letter-spacing: 30px;
+	z-index: 2;
+	text-align: justify-all;
+	-ms-transform: rotate(130deg); /* IE 9 */
+    -webkit-transform: rotate(130deg); /* Chrome, Safari, Opera */
+    transform: rotate(130deg);
+}
+
+
+
+.JD {
+	font-family: "Arial";
+	color: yellow;
+	font-size: 29px;
+	width: 300px;
+	text-align: center;
+	position:relative;
+	display: inline-block;
+	bottom:336px;
+	z-index: 1;
+	letter-spacing: 15px;
+	-ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+
+}
+
+.JD:hover {
+	color: blue;
+}
+.JD:hover {
+	color: blue;
+}
+
+
+.text2a{
+	font-size: 16;
+}
+
+
+
+.gyges {
+	height: 38px;
+	width: 20px;
+	background-image: url("lydia.png");
+	position: relative;
+	display: inline-block;
+	bottom: 1232px;
+	left: 100px;
+	z-index: 1;
+}
+
+.gyges2 {
+	height: 62px;
+	width: 30px;
+	background-image: url("gyges.png");
+	position: relative;
+	display: inline-block;
+	left: 50px;
+	top: 205px;
+	z-index: 1;
+}
+
+
+
+
+.bronzehorse3 {
+	
+	background-image: url("bhorse2.png");
+	width: 260px;
+	height: 278px;
+	background-repeat: no-repeat;
+	position: relative;
+	display: inline-block;
+	z-index: 4;
+	bottom: 30px;
+	left: 100px;
+}
+	
+
+.bronzehorse3:hover {
+	
+	background-image: url("bhorseopen3.png");
+	width: 260px;
+	height: 207px;
+	background-repeat: no-repeat;
+	position: relative;
+	display: inline-block;
+	z-index: 4;
+
+}
+
+#grassgyges2 {
+	position: relative;
+	display: inline-block;
+	z-index: 2;
+	top: 200px;
+
+
+}
+
+.gyges3 {
+	height: 62px;
+	width: 30px;
+	background-image: url("gyges.png");
+	position: relative;
+	display: inline-block;
+	left: 50px;
+	top: 205px;
+	z-index: 4;
+
+}
+
+.gyges3:hover {
+	height: 62px;
+	width: 30px;
+	background-color: blue;
+	background-image: url("rectanglegyges.png");
+	position: relative;
+	display: inline-block;
+	z-index: 4;
+
+}
+
+.ring {
+	width: 112px;
+	height: 98px;
+	left: 90px;
+	bottom: 90px;
+	background-image: url("ring.png");
+	position: relative;
+	display: inline-block;
+	z-index: 4;
+	background-repeat: no-repeat;
+
+}
+
+.ring:hover {
+	-webkit-transform: rotate(360deg);
+    -webkit-transition-duration: 1s;
+    -webkit-transition-delay: now;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+}
